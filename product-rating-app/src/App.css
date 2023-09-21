@@ -1,0 +1,323 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.register {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.register h2 {
+  text-align: center;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.register button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.register button:hover {
+  background-color: #0056b3;
+}
+
+#loginForm {
+  background-image: url('../images/background.png');
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+.login {
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inputFields {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.personIcon {
+  margin-right: 10px;
+}
+
+.login h2 {
+  text-align: center;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.login a{
+  padding-top: 10px;
+  text-align: right;
+  border-bottom: none;
+}
+
+.login button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(255, 4, 192);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  border-radius: 25%;
+}
+
+.login button:hover {
+  background-color: #0056b3;
+}
+
+.centreLogIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.centreLogInText {
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+.facebookButton {
+  background-color: darkblue;
+  border-radius: 50%;
+  color: white;
+  padding: 4px;
+  margin-left: 4px;
+}
+
+.twitterButton {
+  background-color: lightblue;
+  border-radius: 50%;
+  color: white;
+  padding: 4px;
+  margin-left: 4px;
+}
+
+.googleButton {
+ background-color: rgb(194, 3, 3);
+ border-radius: 50%;
+ color: white;
+ padding: 4px;
+ margin-left: 4px;
+}
+
+.bottomLogIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: small;
+}
+
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.registerButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  float: right;
+}
+
+.product {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: lightgrey;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  min-width: 300px;
+}
+
+.product h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.product p {
+  margin: 10px 0;
+}
+
+.product p.rating {
+  font-weight: bold;
+}
+
+.product div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product input {
+  width: 40px;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.product button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #0056b3;
+}
+
+.register a{
+  color: #007bff;
+  padding-top: 10px;
+  text-align: right;
+}
+
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 60px;
+}
+
+.css-1999db7-MuiCardMedia-root {
+  width: 286px; 
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#cardimage {
+ height: 227px;
+}
+
+#productMain {
+  padding: 7px;
+}
+
+#productName {
+  margin-bottom: 0px;
+}
+
+#productDesc {
+  font-weight: bold;
+}
+
+#productRating {
+  margin-top: 2px;
+  font-weight: 700;
+}
+
+#rate-button {
+  margin-left: 140px;
+}
+
+#productHeading {
+  font-size: xx-large;
+  color: white;
+  padding: 20px;
+  background-color: lightgray;
+  margin-top: 0px;   
+}
